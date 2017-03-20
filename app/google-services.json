@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400903941786",
+    "firebase_url": "https://next-genshopping.firebaseio.com",
+    "project_id": "next-genshopping",
+    "storage_bucket": "next-genshopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400903941786:android:5e9a8b5755bfb7bd",
+        "android_client_info": {
+          "package_name": "com.example.a5e025799h.next_genshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400903941786-jadeeo6d77q6q2rct88gqmdisfr4nvve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a5e025799h.next_genshopping",
+            "certificate_hash": "7e907d3922fe0f66a6afa322169ffd3f1228eccb"
+          }
+        },
+        {
+          "client_id": "400903941786-05ia5r56cp7tapeo9fa60fplokr3bodh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHwBreOtVVwUt7u1Vyb0ZTi1_j9d5ElI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400903941786-05ia5r56cp7tapeo9fa60fplokr3bodh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
