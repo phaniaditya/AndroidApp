@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">Next-GenShopping</string>
     <string name="menu_item_logout">Logout</string>
+    <string name="title_activity_track">Map</string>
+
+
+    <string-array name="titles">
+        <item>A.Pizza</item>
+        <item>B.Burrito</item>
+        <item>C.Taco</item>
+        <item>D.Quesadilla</item>
+        <item>E.Cheese Burger</item>
+        <item>F.HotDog</item>
+        <item>G.Chicken Nuggets</item>
+        <item>H.Chicken Sandwich</item>
+        <item>I.Fountain Soda</item>
+        <item>J.Coffee</item>
+    </string-array>
+
+    <string-array name="Desc">
+        <item>Desc1</item>
+        <item>Desc2</item>
+        <item>Desc3</item>
+        <item>Desc4</item>
+        <item>Desc5</item>
+        <item>Desc6</item>
+        <item>Desc7</item>
+        <item>Desc8</item>
+        <item>Desc9</item>
+        <item>Desc10</item>
+    </string-array>
 
 </resources>

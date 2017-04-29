@@ -45,6 +45,7 @@ public class  SearchActivity extends AppCompatActivity implements GoogleApiClien
         zipcode = (EditText) findViewById(R.id.zipcode);
 
         auth = FirebaseAuth.getInstance();
+
     }
 
     public void search(View view) {

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
 
@@ -105,4 +106,17 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
         }
 
     }
+//use this at the end of project
+    /*public void track(View view) {
+        if (view.getId() == R.id.track) {
+         startActivity(new Intent(DetailsActivity.this, TrackActivity.class));
+
+        }
+    }*/
+    public void shop(View view){
+        if(view.getId()==R.id.shop){
+            startActivity(new Intent(DetailsActivity.this, ShopActivity.class));
+        }
+    }
+
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.a5e025799h.next_genshopping.ShopActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first">
+
+        <EditText
+            android:hint="Enter your menu options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Shop"
+            android:layout_weight="4" />
+        <Button
+            android:text="Order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:onClick="Order"
+            android:id="@+id/Order" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:entries="@array/titles"
+        android:id="@+id/listView"/>
+
+
+</LinearLayout>
